@@ -11,8 +11,15 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('wisata', function (Blueprint $table) {
+        Schema::create('wisata', function (Blueprint $table) {
+            //$table->id();
+            $table->timestamps();
+            $table->integer('id_wisata');
+            $table->string('judul');
+            $table->string('lokasi');
+            $table->text('deskripsi');
             $table->string('thumbnail');
+            $table->unique(array('id_wisata'));
         });
     }
 
@@ -21,8 +28,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('wisata', function (Blueprint $table) {
-            $table->dropColumn('thumbnail');
-        });
+        Schema::dropIfExists('wisata');
     }
 };

@@ -17,7 +17,7 @@
     </p>
     <p>
         <b>Thumbnail</b><br>
-        <img style="max-width:50px; max-height:50px" src="{{ asset('gambar').'/'.$data->thumbnail }}" alt="thumbnail">
+        <img style="max-width:500px; max-height:500px" src="{{ asset('gambar').'/'.$data->thumbnail }}" alt="thumbnail">
     </p>
 </div>
 @endsection

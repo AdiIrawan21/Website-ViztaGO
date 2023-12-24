@@ -18,6 +18,7 @@ class AdminSeeder extends Seeder
             'judul' => 'Gunung Bromo',
             'lokasi' => 'Jawa Timur',
             'deskripsi' => 'Bromo terletak di Malang, Jawa Timur',
+            'thumbnail' => 'bromo.jpg',
             'created_at' => date('Y-m-d H:i:s')
         ]);
 
@@ -26,6 +27,7 @@ class AdminSeeder extends Seeder
             'judul' => 'Pantai Losari',
             'lokasi' => 'Jawa Timur',
             'deskripsi' => 'Pantai Losari terletak di Malang, Jawa Timur',
+            'thumbnail' => 'bromo.jpeg',
             'created_at' => date('Y-m-d H:i:s')
         ]);
     }
