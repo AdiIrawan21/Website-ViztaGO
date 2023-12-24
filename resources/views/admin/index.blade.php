@@ -3,7 +3,8 @@
 @extends('layouts/admin')
 
 @section('content')
-<a href="/admin/create" class="btn btn-primary">+Tambah Data Wisata</a>
+
+<a href="/admin/create" class="btn btn-primary mb-3">+Tambah Data Wisata</a>
 <table class="table table-hover">
     <thead>
         <tr>

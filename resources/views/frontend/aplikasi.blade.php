@@ -28,8 +28,8 @@
                         <a class="nav-link nav-link-hover" href="#caroseul" tabindex="-1" aria-disabled="true">Go Explore</a>
                     </li>
                 </ul>
-                <a href="/sesi/register" type="button" class="btn1 btn-primary btn-sm me-2 shadow" style="text-decoration: none; color: #112F65;">Sign Up</a>
-                <a href="/sesi" type="button" class="btn2 btn-secondary btn-sm shadow" style="color:white; text-decoration: none;">Login</a>
+                {{-- <a href="/sesi" type="button" class="btn1 btn-primary btn-sm me-2 shadow" style="text-decoration: none; color: white;">SignUp as Admin</a> --}}
+                {{-- <a href="/sesi" type="button" class="btn2 btn-secondary btn-sm shadow" style="color:white; text-decoration: none;">Login</a> --}}
             </div>
         </div>
     </nav>

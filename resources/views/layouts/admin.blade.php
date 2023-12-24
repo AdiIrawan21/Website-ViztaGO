@@ -12,7 +12,6 @@
         @if (Auth::check())
         @include('komponen/menu')
         @endif
-        @include('komponen/pesan')
         @yield('content')
     </div>
 </body>
